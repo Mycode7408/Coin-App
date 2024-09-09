@@ -60,5 +60,26 @@ dependencies {
     implementation libs.androidx.activity.ktx
 
 
+    testImplementation libs.junit
+    testImplementation libs.mockito.core
+    testImplementation libs.mockito.inline
+    testImplementation libs.androidx.core.testing
+    testImplementation libs.kotlinx.coroutines.test
+
+
+    androidTestImplementation libs.androidx.junit.v115
+    androidTestImplementation libs.androidx.espresso.core.v351
+    androidTestImplementation libs.androidx.core
+
+
+    testImplementation libs.mockito.core
+    testImplementation libs.mockito.inline
+
+    testImplementation libs.mockito.kotlin
+
+    testImplementation libs.androidx.core.testing
+
+
+
 
 }
