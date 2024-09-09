@@ -1,0 +1,89 @@
+<!-- activity_coin_detail.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textCoinName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:text="Coin Name" />
+
+    <TextView
+        android:id="@+id/textCoinSymbol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Coin Symbol" />
+
+    <TextView
+        android:id="@+id/textCoinRank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="Rank: 1" />
+
+    <TextView
+        android:id="@+id/textCoinPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="Price: $0.00" />
+
+    <TextView
+        android:id="@+id/textCoinMarketCap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="Market Cap: $0.00" />
+
+    <TextView
+        android:id="@+id/textCoin24hVolume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="24h Volume: $0.00" />
+
+    <TextView
+        android:id="@+id/textCoinChange24h"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="24h Change: 0.00%" />
+
+    <TextView
+        android:id="@+id/textCoinCirculatingSupply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="Circulating Supply: 0.00" />
+
+    <TextView
+        android:id="@+id/textCoinTotalSupply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="Total Supply: 0.00" />
+
+    <!-- Optional Details -->
+    <TextView
+        android:id="@+id/textCoinDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="Description: " />
+
+    <TextView
+        android:id="@+id/textCoinWebsite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="Website: " />
+
+    <!-- Add ImageView for Logo if needed -->
+
+</LinearLayout>
